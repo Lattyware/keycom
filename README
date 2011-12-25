@@ -1,0 +1,11 @@
+ 
+    Distributed under the GPLv3.
+    Dependancies: python.
+    Reccomended: cron (for automation).
+    Download keycom.tar.gz md5sum: 3cb8e52050973ff1f63f5ff39ae6d0bb.
+
+A script which allows you to automatically log in with Keycom (an ISP that require a browser based login, common at university halls of residence).
+
+To use, extract, edit the details in the script (probably just username and password unless you know what you are doing), add to cron (crontab -e) and leave to log you in automatically.
+
+Currently only tested under Linux. Should work fine under other OSs, but you'd need some cron alternative.
